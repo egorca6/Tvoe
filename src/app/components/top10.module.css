@@ -1,0 +1,25 @@
+.wrapper {
+  display: flex;
+  gap: 100px;
+}
+.wrapperCard {
+  width: 559px;
+  height: 597px;
+  display: flex;
+  align-items: center;
+}
+
+.wrapperCardText {
+  font-family: Archivo;
+  font-style: normal;
+  font-style: italic;
+  font-weight: 900;
+  font-size: 460px;
+  line-height: 392px;
+  -webkit-text-stroke: 3px rgba(37, 117, 252, 1);
+}
+
+.wrapperCardImg {
+  margin-left: -5.25rem;
+  height: 597px;
+}
