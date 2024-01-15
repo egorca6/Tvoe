@@ -1,6 +1,6 @@
 import Image from "next/image";
 import styles from "./page.module.css";
-import { icons } from "./constants/insex";
+import { icons } from "./constants";
 import Cards from "./components/card";
 import TopCards from "./components/top10";
 

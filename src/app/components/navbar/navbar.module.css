@@ -1,0 +1,27 @@
+.aside {
+  width: 215px;
+  height: 100%;
+}
+
+.navWrapper {
+  top: 150px;
+  left: 58px;
+  position: relative;
+  height: 790px;
+  width: 54px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.buttonsWrapper {
+  display: flex;
+  flex-direction: column;
+  row-gap: 37.85px;
+  height: 464px;
+  width: 54px;
+}
+.logoWrapper {
+  top: 40px;
+  left: 65px;
+  position: relative;
+}

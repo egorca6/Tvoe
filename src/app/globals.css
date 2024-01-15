@@ -10,8 +10,12 @@
 
 html,
 body {
-  width: 1920px;
+  max-width: 1920px;
   height: 2600px;
   position: relative;
   overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
 }

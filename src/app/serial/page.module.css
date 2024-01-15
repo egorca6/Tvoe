@@ -1,0 +1,265 @@
+.h1 {
+  color: white;
+}
+
+.container {
+  display: flex;
+  max-width: 1920px;
+  height: 2600px;
+}
+.aside {
+  width: 215px;
+  height: 100%;
+}
+
+.navWrapper {
+  top: 150px;
+  left: 58px;
+  position: relative;
+  height: 790px;
+  width: 54px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.buttonsWrapper {
+  display: flex;
+  flex-direction: column;
+  row-gap: 37.85px;
+  height: 464px;
+  width: 54px;
+}
+.logoWrapper {
+  top: 40px;
+  left: 65px;
+  position: relative;
+}
+
+.main {
+  width: 1705px;
+  height: 726px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.mainImg {
+  height: 780px;
+}
+.wrapperFilm {
+  width: 735px;
+  height: 332px;
+  margin-top: 92px;
+  margin-right: -432px;
+  z-index: 1;
+}
+
+.serialName {
+  margin-bottom: 28px;
+}
+
+.serialText {
+  color: #ffffff;
+  font-family: TT Norms Pro;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 34px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 110px;
+}
+
+.serialRating {
+  margin-bottom: 18px;
+}
+.seasons {
+  display: flex;
+  flex-direction: column;
+  width: 1705px;
+  color: #ffffff;
+  margin-top: -50px;
+  border: none;
+  border-radius: none;
+}
+.seasonsNavbar {
+  display: flex;
+  justify-content: space-between;
+  width: 352px;
+  height: 48px;
+  margin-bottom: 24px;
+}
+.seasonsNavbarButtons {
+  display: flex;
+  gap: 20px;
+}
+.seasonsNavbarButton {
+  background: #232326;
+  color: #bababa;
+  text-align: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 100px;
+}
+
+.seasonsNavbarText {
+  font-family: TT Norms Pro;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.seasonsImg {
+  display: flex;
+  column-gap: 20px;
+  width: 1705px;
+  height: 425px;
+  margin-bottom: 60px;
+}
+
+.seasonsImgCard {
+  width: 544px;
+  height: 425px;
+}
+.logo {
+  margin-bottom: 30px;
+}
+
+.seasonsImgCardText1 {
+  font-family: TT Norms Pro;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 34px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+  margin-bottom: 12px;
+}
+
+.seasonsImgCardText2 {
+  font-family: TT Norms Pro;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 31px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #bababa;
+}
+.seasonsDescription {
+  width: 194px;
+  height: 48px;
+  font-family: TT Norms Pro;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0.045em;
+  text-align: left;
+  color: #ffffff;
+  margin-bottom: 24px;
+}
+
+.seasonsDescriptionText {
+  width: 1641px;
+  height: 180px;
+
+  font-family: TT Norms Pro;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0.04em;
+  text-align: left;
+  margin-bottom: 24px;
+}
+
+.seasonsDescriptionWarning {
+  display: flex;
+  column-gap: 20px;
+  width: 1641px;
+  height: 72px;
+  margin-bottom: 60px;
+}
+.seasonsDescriptionWarningText {
+  align-self: center;
+
+  font-family: TT Norms Pro;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0.05em;
+  text-align: left;
+  color: #4b4b4b;
+}
+
+.seasonsRelated {
+  width: 175px;
+  height: 48px;
+}
+
+.seasonsRelatedImg {
+  display: flex;
+  width: 1641px;
+  height: 382px;
+  column-gap: 24px;
+  margin-bottom: 60px;
+}
+
+.footerWrapper {
+  width: 1335px;
+  height: 276px;
+}
+
+.footerTextWrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 1335px;
+  height: 204px;
+}
+
+.footerText1 {
+  width: 317px;
+  height: 197px;
+}
+.footerText2 {
+  width: 555px;
+  height: 197px;
+}
+.footerText3 {
+  width: 263px;
+  height: 204px;
+}
+
+.footerTextGray {
+  font-family: TT Norms Pro;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0.04em;
+  text-align: left;
+  color: #ffffff4d;
+  margin-bottom: 16px;
+}
+
+.footerTextWhite {
+  font-family: TT Norms Pro;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 34px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+  margin-bottom: 25px;
+}
+.footerText3 .footerTextWhite:last-child {
+  width: 139px;
+  height: 41px;
+  text-align: center;
+  border-radius: 8px;
+  letter-spacing: 0em;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.1) 0%,
+    rgba(255, 255, 255, 0.125) 50%,
+    rgba(255, 255, 255, 0.1) 100%
+  );
+}

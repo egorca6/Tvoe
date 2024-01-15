@@ -1,19 +1,23 @@
 import Image from "next/image";
 import styles from "./card.module.css";
+import Link from "next/link";
 
 export default function Cards() {
   return (
     <div className={styles.wrapper}>
       <div className={styles.wrapperCard}>
-        <Image
-          className={styles.wrapperCardImg}
-          src="/Card1.png"
-          alt="Card1"
-          width={398}
-          height={597}
-          priority
-        />
-        <div className={styles.text}>Синий жук</div>
+        <Link href={"/serial"}>
+          <Image
+            className={styles.wrapperCardImg}
+            src="/Card1.png"
+            alt="Card1"
+            width={398}
+            height={597}
+            priority
+          />
+
+          <div className={styles.text}>Синий жук</div>
+        </Link>
       </div>
       <div className={styles.wrapperCard}>
         <Image

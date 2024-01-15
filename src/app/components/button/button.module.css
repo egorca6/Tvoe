@@ -1,0 +1,54 @@
+.filmWrapperButtons {
+  display: flex;
+  column-gap: 16px;
+  width: 635px;
+  height: 80px;
+}
+
+.filmWrapperButton1 {
+  background: linear-gradient(90deg, #6a11cb 0%, #2575fc 100%);
+  width: 201px;
+  height: 80px;
+  border-radius: 16px;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 38px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.filmWrapperButton2,
+.filmWrapperButton3,
+.filmWrapperButton4 {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.1) 0%,
+    rgba(255, 255, 255, 0.125) 50%,
+    rgba(255, 255, 255, 0.1) 100%
+  );
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  text-align: center;
+  color: #ffffff;
+  border-radius: 16px;
+  width: 184px;
+  height: 80px;
+}
+.filmWrapperVector {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 96px;
+  height: 80px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.1) 0%,
+    rgba(255, 255, 255, 0.125) 50%,
+    rgba(255, 255, 255, 0.1) 100%
+  );
+  border-radius: 16px;
+}
